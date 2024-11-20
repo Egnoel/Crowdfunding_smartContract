@@ -1,47 +1,70 @@
-## Getting Started
+# Crowdfunding Smart Contract
 
-Create a project using this example:
+A Smart contract responsible for all the campaign logic.
 
-```bash
-npx thirdweb create --contract --template forge-starter
-```
+## Table of Contents
 
-You can start editing the page by modifying `contracts/Contract.sol`.
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation and Setup](#installation-and-setup)
+4. [Contributing](#contributing)
+5. [License](#license)
+6. [Contact](#contact)
 
-To add functionality to your contracts, you can use the `@thirdweb-dev/contracts` package which provides base contracts and extensions to inherit. The package is already installed with this project. Head to our [Contracts Extensions Docs](https://portal.thirdweb.com/thirdweb-deploy/contract-extensions) to learn more.
+## Features
 
-## Building the project
+- View campaigns
+- Create campaign
+- Fund campaign
+- Create funding tiers
+- Edit campaign
 
-After any changes to the contract, run:
+## Technologies Used
 
-```bash
-npm run build
-# or
-yarn build
-```
+- ThirdWeb
+- Foundry
 
-to compile your contracts. This will also detect the [Contracts Extensions Docs](https://portal.thirdweb.com/thirdweb-deploy/contract-extensions) detected on your contract.
+## Installation and Setup
 
-## Deploying Contracts
+### Prerequisites
 
-When you're ready to deploy your contracts, just run one of the following command to deploy you're contracts:
+- forge
+- Yarn
 
-```bash
-npm run deploy
-# or
-yarn deploy
-```
+### Steps to Install
 
-## Releasing Contracts
+1. Clone the repository:
 
-If you want to release a version of your contracts publicly, you can use one of the followings command:
+   ```bash
+   git clone https://github.com/Egnoel/Crowdfunding_DApp
+   ```
 
-```bash
-npm run release
-# or
-yarn release
-```
+2. Navigate to the project directory:
 
-## Join our Discord!
+   ```bash
+   cd Crowdfunding_DApp
+   ```
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+3. Install dependencies:
+
+   ```bash
+   yarn install
+   ```
+
+## Contributing
+
+Instructions for contributing to the project.
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Push the branch and create a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+- **Email**: egnoel@hotmail.com
+- **Twitter**: [@egnoelgenio](https://twitter.com/egnoelgenio)
