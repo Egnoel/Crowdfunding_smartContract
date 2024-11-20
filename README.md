@@ -36,13 +36,13 @@ A Smart contract responsible for all the campaign logic.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Egnoel/Crowdfunding_DApp
+   git clone https://github.com/Egnoel/Crowdfunding_smartContract
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd Crowdfunding_DApp
+   cd Crowdfunding_smartContract
    ```
 
 3. Install dependencies:
